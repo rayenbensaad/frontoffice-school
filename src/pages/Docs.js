@@ -37,7 +37,7 @@ const ArchiveSection = () => {
                 <div className="col-lg-4 mb-4" key={index}>
                     <div className="card border-0 shadow-sm mb-2">
                         {/* <img className="card-img-top mb-2" src="img/blog-1.jpg" alt="" /> */}
-                        <img src={`http://localhost:5000/uploads/${archive.picture}`} alt=""/>
+                        <img src={`https://api-node-school.herokuapp.com/uploads/${archive.picture}`} alt=""/>
                         <div className="card-body bg-light text-center p-4">
                             <h4 className=""> {archive.fullName} </h4>
                             <p>{archive.description}</p>
